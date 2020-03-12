@@ -13,11 +13,18 @@
         <h1>Today's Weather</h1>
     </div>
     <div class="data">
-        <h2  class="box">Current Weather for location</h2>
-        <h2 class="box">temp</h2>
-        <h2 class="box">wind</h2>
-        <h2 class="box"> sky</h2>
+        <h2  class="box">Current Weather for <span id="location"></span></h2>
+        <h2 class="box">temp: <span id="temperature"> </span>degrees F</h2>
+        <h2 class="box">wind:<span id="wind"></span></h2>
+        <h2 class="box">condition: <span id="sky"></span></h2>
     </div>
+
+    <!--simply copied code from jQuery CDN website-->
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+
     <script src="weather.js"></script>
 </body>
 </html>
