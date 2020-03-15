@@ -3,7 +3,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 .header {
-    text-align: center;
+    text-align: left;
     margin-bottom: 100px;
 }
 .data {
